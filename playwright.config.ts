@@ -1,0 +1,3 @@
+import {existsSync} from 'node:fs';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/e2e',fullyParallel:false,use:{launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE || (existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined)},baseURL:'http://127.0.0.1:4173'},webServer:{command:'npm run preview -- --host 127.0.0.1',url:'http://127.0.0.1:4173',reuseExistingServer:!process.env.CI},projects:[{name:'desktop',use:{browserName:'chromium',viewport:{width:1280,height:900}}},{name:'phone',use:{browserName:'chromium',viewport:{width:390,height:844},isMobile:true,hasTouch:true}}]});

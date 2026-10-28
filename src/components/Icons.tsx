@@ -1,0 +1,2 @@
+export function SourceArrow(){return <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M6 18 18 6M6 6h12v12"/></svg>;}
+export function BookIcon(){return <svg aria-hidden="true" width="30" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 3h13a2 2 0 0 1 2 2v16H6a2 2 0 0 1-2-2V3Zm0 14h15M8 3v10"/></svg>;}

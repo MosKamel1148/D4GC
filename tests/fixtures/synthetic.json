@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "packId": "synthetic-test-only",
+  "version": "test-1",
+  "createdAt": "2026-01-01T00:00:00Z",
+  "documents": [
+    {
+      "id": "synthetic",
+      "title": "Synthetic test fixture",
+      "filename": "synthetic.html",
+      "format": "html",
+      "type": "reference",
+      "language": "en",
+      "genre": "Synthetic test",
+      "suppliedMetadata": {
+        "id": "synthetic",
+        "genre": "Synthetic test",
+        "language": "en"
+      },
+      "publicationYear": null,
+      "sourceUrl": null,
+      "sourcePath": "sources/synthetic.html.txt",
+      "sourceSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sourceBytes": 0,
+      "pageCount": null,
+      "extractionStatus": "partial",
+      "warnings": [],
+      "textSource": "Synthetic fixture",
+      "viewerPath": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "synthetic:0",
+      "documentId": "synthetic",
+      "heading": null,
+      "text": "Synthetic test data only: local retrieval fixture.",
+      "page": null,
+      "sectionId": null,
+      "ordinal": 0
+    }
+  ]
+}

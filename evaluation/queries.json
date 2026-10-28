@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "query": "International Criminal Court jurisdiction",
+    "relevantDocumentIds": [
+      "P28"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "2",
+    "query": "protected persons",
+    "relevantDocumentIds": [
+      "P26"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "3",
+    "query": "genocide",
+    "relevantDocumentIds": [
+      "P25"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "4",
+    "query": "humanitarian principles",
+    "relevantDocumentIds": [
+      "P27"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "5",
+    "query": "vaccine pricing",
+    "relevantDocumentIds": [
+      "P33"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "6",
+    "query": "bedaquiline",
+    "relevantDocumentIds": [
+      "P34"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "7",
+    "query": "pre-ART mortality",
+    "relevantDocumentIds": [
+      "Df98e297b5f"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "8",
+    "query": "Haiti medical supplies",
+    "relevantDocumentIds": [
+      "Dfa9c0c7a37"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "9",
+    "query": "الكوليرا",
+    "relevantDocumentIds": [
+      "Df5738d956a"
+    ],
+    "notes": "Source-reviewed regression check; not an independent retrieval benchmark."
+  },
+  {
+    "id": "10",
+    "query": "quantum superconducting qubit",
+    "relevantDocumentIds": [],
+    "notes": "Deliberate out-of-sample no-match regression check."
+  }
+]
