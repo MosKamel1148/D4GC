@@ -1,0 +1,64 @@
+[
+  {
+    "id": "P25",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P26",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P27",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P28",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P32",
+    "genre": "Evaluation Report",
+    "language": "en",
+    "title": "MSF and Protection: Pending or Closed?",
+    "type": "other",
+    "publicationYear": 2008
+  },
+  {
+    "id": "P33",
+    "genre": "Advocacy Brief",
+    "language": "en",
+    "title": "The Right Shot: Bringing Down Barriers to Affordable and Adapted Vaccines",
+    "type": "pricing_report",
+    "publicationYear": 2015
+  },
+  {
+    "id": "P34",
+    "genre": "Advocacy Brief",
+    "language": "en",
+    "title": "DR-TB Drugs Under the Microscope 2022",
+    "type": "pricing_report",
+    "publicationYear": 2022
+  },
+  {
+    "id": "Df98e297b5f",
+    "genre": "Peer-reviewed Article",
+    "language": "en",
+    "title": "Excellent outcomes among HIV+ children on ART, but unacceptably high pre-ART mortality and losses to follow-up: a cohort study from Cambodia",
+    "type": "research",
+    "publicationYear": null
+  },
+  {
+    "id": "Dfa9c0c7a37",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Df5738d956a",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  }
+]

@@ -1,9 +1,14 @@
 import {validateCorpus,validateManifest,verifyBytes} from './validateCorpus';
+import type {Corpus} from '../types/corpus';
 const base = `${import.meta.env.BASE_URL}packs/demo/`;
-export async function loadPack(){
+export interface LoadedPack {corpus:Corpus; read:(path:string)=>Promise<ArrayBuffer>; mode:'served'|'local'; notices:string[]}
+export async function loadPack():Promise<LoadedPack>{
   const response=await fetch(base+'manifest.json');
-  if(!response.ok) throw new Error('Sample pack is missing. Run the local ingestion command first.');
-  const manifest=validateManifest(await response.json());
+  const text=await response.text();
+  if(!response.ok||/^\s*</.test(text)) throw new Error('No sample documents are loaded. Choose your supplied sample files below to enable search and filters.');
+  let parsed:unknown;
+  try {parsed=JSON.parse(text);}catch{throw new Error('The sample manifest is not valid JSON. Choose your sample files below, or regenerate the local pack.');}
+  const manifest=validateManifest(parsed);
   async function read(path:string){
     const entry=manifest.files.find(f=>f.path===path);
     if(!entry) throw new Error('File is not registered in the manifest');
@@ -11,12 +16,15 @@ export async function loadPack(){
     if(!res.ok) throw new Error('Source file could not be loaded');
     const bytes=await res.arrayBuffer(); await verifyBytes(bytes,entry); return bytes;
   }
-  const corpus=validateCorpus(JSON.parse(new TextDecoder().decode(await read('corpus.json'))));
+  let json:unknown;
+  try{json=JSON.parse(new TextDecoder().decode(await read('corpus.json')));}catch(e){
+    if(e instanceof SyntaxError)throw new Error('The searchable text file is not valid JSON. Reload the sample files or regenerate the pack.');throw e;
+  }
+  const corpus=validateCorpus(json);
   if(corpus.packId!==manifest.packId||corpus.version!==manifest.version) throw new Error('Pack version mismatch');
   for(const d of corpus.documents){
     const f=manifest.files.find(f=>f.path===d.sourcePath);
     if(!f||f.sha256!==d.sourceSha256||f.bytes!==d.sourceBytes|| (d.viewerPath&&!manifest.files.some(f=>f.path===d.viewerPath))) throw new Error('Source metadata mismatch');
   }
-  return {corpus,read};
+  return {corpus,read,mode:'served',notices:[]};
 }
-export type LoadedPack=Awaited<ReturnType<typeof loadPack>>;

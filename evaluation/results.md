@@ -25,3 +25,15 @@ PWA installation, service worker caching, IndexedDB and offline pack activation 
 Not tested: physical phone, Safari/Firefox, screen readers/switch devices, native mobile PDF page navigation, offline reopening, network-interrupted offline pack updates. PDF byte downloads and links were verified, not universal native viewer behavior. No deployment or source publication performed.
 
 Playwright's browser download was denied by network policy. Existing system Chromium was used successfully. Initial browser tests had accessible-name selector errors in the tests (decorative arrows are hidden); those were corrected, and the final complete run passed.
+
+## Milestone 1 local-download repair
+
+The original local-start instructions were incomplete: GitHub excludes `public/packs/`, and Vite's HTML fallback for missing manifest JSON caused `Unexpected token '<'`. Search was disabled because no corpus loaded; the language/genre controls had no metadata to populate. This was a real distribution bug, despite passing tests in the prepared workspace.
+
+The repaired app handles missing/HTML/malformed JSON responses with recovery instructions and offers **Choose sample files**. Local PDFs use supplied Markdown; browser loading does not extract PDF pages. HTML is sanitized with DOMPurify before source-body extraction and sandboxed display. CSV sample metadata is bundled separately from document content. Declared HTML language discrepancies are flagged without overwriting CSV language. Originals remain exact byte downloads. No source content was added to Git.
+
+Verification: type check and production build passed; 23 unit tests passed with the prepared sample; 18 desktop/phone-emulated browser tests passed, including missing-pack recovery, local 10-document import, both filters, original opening, invalid replacement preserving the loaded sample, required PDF/Markdown pairing, orphan/duplicate rejection, and passive HTML/metadata discrepancy checks. The tests observed no requests during local file loading, searching, filtering and original viewing after startup.
+
+A separate clean copy containing only Git-tracked files (no documents or generated pack) built successfully. Its unit tests passed 11 checks and explicitly skipped 12 real-corpus checks. Its production preview was exercised in phone-sized Chromium: initial missing-pack state, selection of the actual sample, search, language filtering and original HTML opening all passed. The clean copy reused installed dependencies; a fresh package download on Windows was not tested.
+
+File selection is memory-only. Refresh clears it; no PWA or offline storage has been added. PDF text extraction still requires Python for originals without supplied Markdown. User-visible instructions now distinguish prepared-workspace execution from a fresh GitHub download.

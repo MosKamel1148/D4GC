@@ -1,11 +1,12 @@
-import {readFileSync} from 'node:fs';
+import {readFileSync,existsSync} from 'node:fs';
 import {describe,it,expect} from 'vitest';
 import {validateCorpus,validateManifest,verifyBytes} from '../src/data/validateCorpus';
 import {createSearchService} from '../src/search/searchDocuments';
-const raw=JSON.parse(readFileSync('public/packs/demo/corpus.json','utf8'));
+const hasSample=existsSync('public/packs/demo/corpus.json');
+const raw=JSON.parse(readFileSync(hasSample?'public/packs/demo/corpus.json':'tests/fixtures/synthetic.json','utf8'));
 const corpus=validateCorpus(raw);
 const search=createSearchService(corpus);
-describe('supplied sample retrieval',()=>{
+describe.skipIf(!hasSample)('supplied sample retrieval',()=>{
  it.each([
   ['International Criminal Court jurisdiction','P28'],
   ['protected persons','P26'],
@@ -46,8 +47,8 @@ describe('untrusted pack validation',()=>{
   (c:any)=>c.schemaVersion=99,
  ])('rejects invalid pack variant %#',mutate=>{const c=structuredClone(raw);mutate(c);expect(()=>validateCorpus(c)).toThrow();});
  it('detects source corruption',async()=>{
-  const manifest=validateManifest(JSON.parse(readFileSync('public/packs/demo/manifest.json','utf8')));
-  for(const file of manifest.files){const b=readFileSync('public/packs/demo/'+file.path);await verifyBytes(new Uint8Array(b).buffer,file);}
+  if(hasSample){const manifest=validateManifest(JSON.parse(readFileSync('public/packs/demo/manifest.json','utf8')));
+  for(const file of manifest.files){const b=readFileSync('public/packs/demo/'+file.path);await verifyBytes(new Uint8Array(b).buffer,file);}}
   const b=new TextEncoder().encode('corrupt');await expect(verifyBytes(b.buffer,{bytes:7,sha256:'0'.repeat(64)})).rejects.toThrow('checksum');
  });
 });

@@ -1,4 +1,6 @@
+import {existsSync} from 'node:fs';
 import {test,expect} from '@playwright/test';
+test.skip(!existsSync('public/packs/demo/corpus.json'),'Prepare the supplied sample for pack regression checks.');
 test('local query → grouped excerpt → original → Back',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await expect(page.getByRole('button',{name:'Search',exact:true})).toBeEnabled();

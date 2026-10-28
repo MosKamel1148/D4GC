@@ -2,18 +2,28 @@
 
 First milestone: a React + TypeScript + Vite application using MiniSearch to find real source excerpts and open the supplied originals. No backend or cloud search API. PWA installation, service workers and offline storage are deliberately deferred.
 
-## Run in this workspace
+## Quick local start (Windows, macOS or Linux)
 
-The sample is already prepared in `public/packs/demo/` (10 documents, 1,152 passages). All original attachments are retained in ignored `documents/`. The challenge PDF is project context and is not indexed.
+Install Node.js LTS, download the **fieldfind-milestone-1** branch, extract it, and open a terminal in that folder:
 
 ```sh
-cd /workspace/D4GC
+npm install
 npm run dev
 ```
 
-Search for `protected persons`, `vaccine pricing`, `bedaquiline`, or `الكوليرا`. Submit with Enter or Search. Results are grouped by document, initially three cards, with exact excerpts. Open document shows the matching passage, source warnings, a PDF or sandboxed HTML view, and an exact original download. Back restores query, filters, results, scroll and the originating button's focus.
+Open the localhost address printed in the terminal (normally port 5173). Click **Choose sample files**. Select the original PDF/HTML attachments and matching Markdown together from your computer. You can select all 16 sample source/text files at once; other attachments are ignored and reported. The challenge PDF is not indexed. No Python, hosting account, token or upload is needed for this route.
 
-Local search uses same-language word matching, Unicode normalization and conservative prefix matching. Multiple query words must match the same passage (including its title/heading). No translation, semantic inference, stemming or confidence scores. Search does not fetch anything per query after initial pack loading. Opening a source fetches its local pack file and verifies its bytes.
+For the full sample, select these originals:
+`P25.html`, `P26.html`, `P27.html`, `P28.html`, `P32.pdf`, `P33.pdf`, `P34.pdf`, `Df98e297b5f.pdf`, `Dfa9c0c7a37.html`, `Df5738d956a.html`.
+Also select these text versions:
+`P28.md`, `P32.md`, `P33.md`, `P34.md`, `Df98e297b5f.md`, `Df5738d956a.md`.
+Keep their supplied filenames. A smaller subset works too. Every PDF needs its matching Markdown for browser loading; otherwise the app explains which file is missing. Browser loading does not extract PDF text or infer page counts/references. The Python route below remains available for actual PDF extraction.
+
+Files remain **only in memory in this browser tab**. Nothing is uploaded or persisted. Choose them again after refresh. This is milestone 1, not offline storage. Search and filters become available after validation. A failed selection leaves the previous collection usable. Missing packs, HTML fallback responses and malformed JSON show recovery instructions instead of a JSON syntax error.
+
+Search for `protected persons`, `vaccine pricing`, `bedaquiline`, or `الكوليرا`. Search matches source-language words, not translations. Results are grouped by document, initially three cards, with exact excerpts. Open document provides a safe HTML view or original PDF plus exact original download. Back restores query, filters, results, scroll and focus. Filters apply to the last submitted query, even if you edit the input without submitting.
+
+The sample pack is available in this managed workspace, but **is intentionally not in GitHub**. A fresh GitHub download uses the file chooser above. Do not remove `.gitignore` rules or publish source documents to fix a missing-pack message. Only sample metadata (IDs/genres/languages and separate title/type/year overrides) is bundled in Git. Local HTML sanitization uses DOMPurify and a sandboxed restrictive-CSP viewer; active content and images/remote resources are removed, while original bytes remain downloadable.
 
 ## Reproduce preparation
 
