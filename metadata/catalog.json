@@ -1,0 +1,3822 @@
+[
+  {
+    "id": "P01",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "P02",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "P03",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "P04",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "P05",
+    "genre": "First-person Field Account",
+    "language": "en"
+  },
+  {
+    "id": "P06",
+    "genre": "First-person Field Account",
+    "language": "en"
+  },
+  {
+    "id": "P07",
+    "genre": "First-person Field Account",
+    "language": "en"
+  },
+  {
+    "id": "P08",
+    "genre": "First-person Field Account",
+    "language": "en"
+  },
+  {
+    "id": "P09",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P10",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P11",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P12",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P13",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "P14",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "P15",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "P16",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "P17",
+    "genre": "Research Governance Document",
+    "language": "en"
+  },
+  {
+    "id": "P18",
+    "genre": "Research Governance Document",
+    "language": "en"
+  },
+  {
+    "id": "P19",
+    "genre": "Research Governance Document",
+    "language": "en"
+  },
+  {
+    "id": "P20",
+    "genre": "Research Governance Document",
+    "language": "en"
+  },
+  {
+    "id": "P21",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P22",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P23",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P24",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P25",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P26",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P27",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P28",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "P29",
+    "genre": "Evaluation Report",
+    "language": "en"
+  },
+  {
+    "id": "P30",
+    "genre": "Evaluation Report",
+    "language": "en"
+  },
+  {
+    "id": "P31",
+    "genre": "Evaluation Report",
+    "language": "en"
+  },
+  {
+    "id": "P32",
+    "genre": "Evaluation Report",
+    "language": "en"
+  },
+  {
+    "id": "P33",
+    "genre": "Advocacy Brief",
+    "language": "en"
+  },
+  {
+    "id": "P34",
+    "genre": "Advocacy Brief",
+    "language": "en"
+  },
+  {
+    "id": "P35",
+    "genre": "Advocacy Brief",
+    "language": "en"
+  },
+  {
+    "id": "P36",
+    "genre": "Advocacy Brief",
+    "language": "en"
+  },
+  {
+    "id": "P37",
+    "genre": "Critical Essay",
+    "language": "en"
+  },
+  {
+    "id": "P38",
+    "genre": "Critical Essay",
+    "language": "en"
+  },
+  {
+    "id": "P39",
+    "genre": "Critical Essay",
+    "language": "en"
+  },
+  {
+    "id": "P40",
+    "genre": "Critical Essay",
+    "language": "en"
+  },
+  {
+    "id": "P41",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "P42",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "P43",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "P44",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "P45",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "P46",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "P47",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "P48",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "P49",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "P50",
+    "genre": "Evaluation Methodology Guide",
+    "language": "en"
+  },
+  {
+    "id": "D17e499ac0a",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D8bafbbfb7a",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D597b901fc0",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D2e11dee055",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Df89b5a7a1a",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D2c4fd3394c",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D5057743ad2",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D292411330b",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D20cfb5ee60",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D5222f02a50",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D3b2e475c37",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "De248530dbe",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "Dd2d4a2481b",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D7e9378eeb8",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D8b3df52e9e",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D5d1bb4aad4",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D5375e4eb66",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D0513ca68ff",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dda1f1cf382",
+    "genre": "Speech",
+    "language": "en"
+  },
+  {
+    "id": "Df73a5c30bf",
+    "genre": "Report",
+    "language": "en"
+  },
+  {
+    "id": "D3fcfb82721",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D9f045d83a6",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Da62ea9bf7f",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Db305b45b94",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D6bd328fa1a",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D25c399e2a3",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D6955e41d32",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D2764b19112",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D81a6f1eeee",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D7acf22526b",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "Dac15cd638c",
+    "genre": "Interview",
+    "language": "ar"
+  },
+  {
+    "id": "Dacd418953a",
+    "genre": "Statement",
+    "language": "ar"
+  },
+  {
+    "id": "D1c586e6f70",
+    "genre": "Statement",
+    "language": "ar"
+  },
+  {
+    "id": "D70431f133a",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D705b6e90b7",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D802e76ecc1",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dc645c30427",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Ddc83b267e0",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D3626ca2d3e",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D362ac0b711",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D98949d5e0c",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D62457e1efb",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D6a210ea934",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D368f91afcb",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D4fa5104604",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dbdfa725f12",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "De0f71e5cf5",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D702c8332ce",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D3a344296cf",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D1ef8b2e740",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Db3559c4320",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Ddc851011e7",
+    "genre": "Activity Report Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D7dbb77c873",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D00f74bcaf7",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "De76e327faa",
+    "genre": "Activity Report Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dbb3e40c69c",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dcf6e6ba02b",
+    "genre": "Activity Report Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dad7d7e880f",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D0c937b9312",
+    "genre": "Activity Report Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dbd5581d7ea",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D162ba1334d",
+    "genre": "Activity Report Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D756e06cd6d",
+    "genre": "Activity Report Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D6d95a6dd88",
+    "genre": "Activity Report Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D4a1cfc9e84",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "D3eb698da05",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "D806bc9089a",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "D99b084ca58",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "D98f9c10fad",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "D32ea4a9d92",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "Db61a4af081",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "Dbd6e2ef149",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "D03b100b562",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "Dfee2e6ea98",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "Dd529d6b2d6",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "Da384a9ee90",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "D0648397364",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "D0eebba4c05",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "Dbfd3dda829",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "Dd12a09cdc4",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "D74c6cb64f3",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "Db88e5c92e9",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "De04deb00e2",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "Da68d33c442",
+    "genre": "Historical Case Study",
+    "language": "en"
+  },
+  {
+    "id": "Db44a39eff2",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "Da3c2a32b51",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "Da5fd2a394e",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "D23be77d49e",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "D10d6a75496",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "D8edc950029",
+    "genre": "Summary",
+    "language": "en"
+  },
+  {
+    "id": "D3ee82c6349",
+    "genre": "Timeline",
+    "language": "en"
+  },
+  {
+    "id": "D503e3b0d63",
+    "genre": "Financial Report",
+    "language": "en"
+  },
+  {
+    "id": "D9549aa0ea8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfc2b1675a1",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dedcbf1a53c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dda00263b16",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Ddf4ea08a8c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D80a45e7ec8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D66fe4cd145",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7ce58ac770",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dce65f43143",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0fe553578f",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D832a695395",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1e6522c5c3",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D014f7e7bf4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9e83de4d52",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D540d31dc83",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D096f85888f",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3ceda3d736",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0bd9567695",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dbf9720f4a8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0a172b79a4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3744b395c7",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7b1badbde2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc06a714c1d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da5753abc3e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4543bc4b16",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db77c5f1b42",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D037e4f1dc8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dee2a08cd39",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D44b991fcbd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D39b5a07cce",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D02dab61f41",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7dbccfcf92",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df7ea6d2f4b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4813f9a5f0",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dab5b7604b8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db873603792",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4891913c58",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7d3811047b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dad3389f998",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De5b2f33ffa",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dea6c3f0f10",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6a4632d088",
+    "genre": "Study Protocol",
+    "language": "en"
+  },
+  {
+    "id": "D7e6075bfc4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df3ba72b4f8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1fd995f42e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4d7b8627dd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D955bef0477",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D98ca469833",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db90c744289",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4951f3de24",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De0610b719b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4b1bbec358",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D48246cb637",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D035530810c",
+    "genre": "Study Protocol",
+    "language": "en"
+  },
+  {
+    "id": "Db4e4334847",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfd4bb1d3b2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D70c5546837",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D527c64a588",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D24b54ce36a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D199715052e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da75bdbcd90",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D674b851bcf",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D73d7444763",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7c514aa2f9",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De81b52b6ad",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7a52c1f25b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dd0941288db",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De61d0eaa84",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D718afe08b3",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5a8d5824d6",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8bc477871b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D115e2a4293",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db5a154666e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D35e08369e9",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4f51b3b8aa",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D08b1166a91",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1fa284e16c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D232e32b0aa",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0197c14ba0",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D96536b2560",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4afd3f8cff",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dbb8e0e493d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dd3e3626d4a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df1b0fc1446",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da04fa8c20e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D71cfd2aa0c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D989b4aac2d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8954bd10a8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D2b2708f82d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6e4fcedcad",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dcf618c0995",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dba66038131",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da65196eab2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0c8b8c1868",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D62e0b7f65e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De35232409a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D20de515bc6",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De789e08ccc",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1acecedd02",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De3f857b161",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da1d312e3ab",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D081f681b26",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfc8173d0de",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D15481ba1fa",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D474f90492f",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db5c5c06c40",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9c3366a7c9",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dd6a1769f2b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3f13adccf5",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5e8da6e171",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D231ec86b56",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D95731a5b07",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D4c9ba9b73a",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "De8e37cb6a1",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Df9abadea0b",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Dd93a3621e3",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Df843911b9c",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Df295ad7498",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D7401c9a9f4",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "De335d249c7",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D1863c5e77b",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D47e9119050",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D19a9afbb83",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D95804df969",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Df85d288c91",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D6b53b9e283",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Db171f486da",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Dedb81e1789",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D49675ad8c1",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D7275d37db4",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Ded279162fa",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D0f687b1bc0",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D6d7fafbadc",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "Df133dbadbc",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D6994607cf8",
+    "genre": "Legal Encyclopedia Entry",
+    "language": "en"
+  },
+  {
+    "id": "D42c9d32f36",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D8a0e54ac4f",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D5ce211b5b0",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D504187ddc0",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D17890cad99",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D7f227c43c5",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dc0539d92df",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D1e6ed5c563",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D576ed006d1",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dc8e8dd71c1",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Daf7d793126",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dc163a8c770",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "De05c727a25",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Ddd45e9013a",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dd04607a1bd",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D36fbf9932e",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D4d679068a9",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Deb43f3d3b7",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Df45c9a1267",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D85da48d306",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "De9db56dd15",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D148a9f7246",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D04be07fbc1",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D4fdbd7e71f",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D6a06b09fd0",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dce38610fdf",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D2c6edfbdeb",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D2f6b89a8ae",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D1bcbec82c8",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D5b93bd7b43",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D506487c525",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D49a9834c4f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D7052be8368",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dd98e39dfe7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Da629acf7a4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D545a53799d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dac9da96f9c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D1a6aaaf38c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D99058103bc",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D744cf5e8a7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dc197b09e2b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Df1999687eb",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D790bc55dcd",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dce76dfe24c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D16048816a2",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D0db6bc77dd",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dda26f27d40",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Df2ec170bbd",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dfa1b791813",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D377aa5dfe5",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D373313c132",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D75f5c171c2",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D506fa6468a",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D18a30c350b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D4f2f98746d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Da8d7f2aefc",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dce41d2a51f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D0e7847e68d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dc1b4cebeea",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D9e45d95b23",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Da5fedd82cc",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dfe461f57a4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D8b13895f36",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D7efa0937d9",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D23e1d9311c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D8a0bf4b30a",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D3f77693628",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dfbc2c806de",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D997080ab54",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "De6f3e9c71f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "De275b1a266",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D64a12ee004",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dfa092908f4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dfae984e3d1",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D90e1a4d7de",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D6de324faad",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D2e6fdb1638",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D0fdc1d0ef5",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Ddbc2d1795e",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D485cf07c2f",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D810d7eb050",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D13a0eeb8c5",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D28f2e6484c",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dadc2eedb91",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D8a2f164116",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "De03cafecf1",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D8688fb1d8c",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "De2f723ce04",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dfd0d9e3afb",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D6e9e7bc8f0",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dacd2f2d218",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dd049c70e48",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D2c9bd90636",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D96e6a7ce42",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dc190efdb0c",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D9e5162a399",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D270ed35e75",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D3a2e8cc2bf",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D593e0ac882",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D4e14ca42fa",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D905421131c",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D0fe93f344c",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D1bcc414c13",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "Daf96810c48",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "Df1c261b285",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D3f666b74fc",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D4177935ee4",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "De4c251983a",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "Dbc65e15071",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D26f2cdf4c2",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "De1f99aa2cf",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "De86ef509f0",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D85d7eb197c",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D55eeab715f",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D2ad107ffa2",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D2ca802fb9f",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "Dd4ee6d16b7",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D89f8f8704e",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D11a2c3c63d",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D7173b6675d",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D88155b92de",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D7484199158",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "Dc9b5ae9bd8",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "Db2de191d11",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "Dc1894a2331",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "Da06d7557ae",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D279e1306ba",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "Da9b1256749",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "De9093b6b47",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D7fa676b119",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "Dac76ae4784",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "Ddc5f4e5436",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D13381c1c34",
+    "genre": "Op-Ed",
+    "language": "en"
+  },
+  {
+    "id": "D6b8bfd81c8",
+    "genre": "Op-Ed",
+    "language": "en"
+  },
+  {
+    "id": "D3a9dd210b9",
+    "genre": "Op-Ed",
+    "language": "en"
+  },
+  {
+    "id": "D3c8d0341c6",
+    "genre": "Opinion",
+    "language": "en"
+  },
+  {
+    "id": "Daa73c27a78",
+    "genre": "Opinion",
+    "language": "en"
+  },
+  {
+    "id": "Dad97e8d44d",
+    "genre": "Opinion",
+    "language": "en"
+  },
+  {
+    "id": "Dc799fdceaa",
+    "genre": "Opinion",
+    "language": "en"
+  },
+  {
+    "id": "D3d2151162e",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Dd9a573c350",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Db4124383fb",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D36f2b46f0b",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Da7897cecbd",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D9bf7056e3d",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D054bcedd1a",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D236dc184a5",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "D499aae5ee1",
+    "genre": "Speech",
+    "language": "en"
+  },
+  {
+    "id": "Dba1a12df50",
+    "genre": "Speech",
+    "language": "en"
+  },
+  {
+    "id": "D69ad43fc13",
+    "genre": "Report",
+    "language": "en"
+  },
+  {
+    "id": "D7a305a70d1",
+    "genre": "Report",
+    "language": "en"
+  },
+  {
+    "id": "D221a40d307",
+    "genre": "Voices from the Field",
+    "language": "en"
+  },
+  {
+    "id": "D13b1b3785f",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Db109fb893b",
+    "genre": "Interview",
+    "language": "en"
+  },
+  {
+    "id": "D99ac00a2b3",
+    "genre": "Statement",
+    "language": "en"
+  },
+  {
+    "id": "Db7cd3d41af",
+    "genre": "Project Update",
+    "language": "en"
+  },
+  {
+    "id": "D0f43c42fa1",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dfa9c0c7a37",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "Dc92c86e29b",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D0c85bc1b4a",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D2fc6ab5472",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D5774643607",
+    "genre": "Speech",
+    "language": "en"
+  },
+  {
+    "id": "Dbaeda1f274",
+    "genre": "Press Release",
+    "language": "en"
+  },
+  {
+    "id": "D907b8f0256",
+    "genre": "Report",
+    "language": "en"
+  },
+  {
+    "id": "Dbd53eb7cac",
+    "genre": "Opinion",
+    "language": "fr"
+  },
+  {
+    "id": "D04304ea6c4",
+    "genre": "Opinion",
+    "language": "es"
+  },
+  {
+    "id": "D332fd5febc",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D5075be3d1d",
+    "genre": "Opinion",
+    "language": "fr"
+  },
+  {
+    "id": "D4ebb3e2295",
+    "genre": "Opinion",
+    "language": "es"
+  },
+  {
+    "id": "Db6773e8c18",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Da906dd6c63",
+    "genre": "Opinion",
+    "language": "fr"
+  },
+  {
+    "id": "D866cbc1592",
+    "genre": "Opinion",
+    "language": "es"
+  },
+  {
+    "id": "D160b2d96cd",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Dee50ded210",
+    "genre": "Statement",
+    "language": "fr"
+  },
+  {
+    "id": "D5ba45ea0c7",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Dcb1577f6b1",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Dc835fd8fa5",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Def236d742c",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D98399d39a0",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Daee4d5fc1f",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Dab64a41cbe",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D73872d2990",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D9e96d4b753",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D46868ca351",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Dc09cbc73ed",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D2ce13192e8",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "Da5383a3d0a",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "De65d413d46",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D17bf4184ef",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D7a5af7866b",
+    "genre": "Press Release",
+    "language": "ar"
+  },
+  {
+    "id": "D11201a228a",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "Ded9b8766ac",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "Df212579f8d",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "Dcf2e36fd60",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D19b04b35f2",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D3260fee68c",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D835e00ac1a",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D460c83057b",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D8d18203d3a",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D24b3269713",
+    "genre": "Project Update",
+    "language": "ar"
+  },
+  {
+    "id": "D8d099e6717",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D855a2aa8c6",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D012ed396fd",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "Df35d21f1d6",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D9996afe2d0",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D3889964229",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D5da294f26a",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "Dd625eb4d57",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "Df5738d956a",
+    "genre": "Voices from the Field",
+    "language": "ar"
+  },
+  {
+    "id": "D1b06b6e33c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8316c95aec",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4dc223f819",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D53e58415e7",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D468eb40896",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D45c27953cb",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da9f6db469d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5290e827ec",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3fff8fb771",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6b93916a5a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D71c00a03f6",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1c2515fd29",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D957b22fac7",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da2c7f27aa2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1c730f5fe6",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D84c3dce66e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D12eb6a44ae",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6932910da8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9ae55ed798",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db6aa59ed1a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4c15f32ded",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De7a091d6d2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D34b1732147",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5da0aed2fd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D45505b9cbe",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dde242c302e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dcacacc3bb7",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db87ed7ae68",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D10e20f5f7e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Deece394536",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D16794eb94d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D67a22ff8dc",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dddb62f9014",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da8de6138bd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dec1d5ccb22",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D72abb48856",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db7dd33fa30",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc5f2be378d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D00a47577ef",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De56cde2022",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D279f7b3d6d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D673ba9db5c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D209c19f741",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D80d8682e92",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db006be0701",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dd19d457d52",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5710a4f4c5",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df98e297b5f",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D705d4b38bf",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D48c6dcfd97",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D03da2066dd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0ae7cceef7",
+    "genre": "Research Policy",
+    "language": "en"
+  },
+  {
+    "id": "D09c3654e6e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De081bb3a2d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D46512b4307",
+    "genre": "Research Policy",
+    "language": "en"
+  },
+  {
+    "id": "Da8a79bb208",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D227872fd4e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1a668dca00",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3207862e09",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D7dc2259eff",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5814f937ab",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D111832613c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D07afa7fbd7",
+    "genre": "Research Policy",
+    "language": "en"
+  },
+  {
+    "id": "D8aa6e6503b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8b233f27d2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df2e3f740e3",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfb721c01fd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9980aae794",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dd3254da5f8",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dce112b1459",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D812cc34f5b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D00acff0abd",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De28a3dac9b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dda0b8c2901",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da8b17ac14e",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3a73e655b7",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6707fbdcac",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D67e9876b52",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De350cb4868",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Da7bd65da54",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D3f9de2b07a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9feb5dac85",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4aa8d3d6c6",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc1ad0828ea",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Db2e973adc4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4153c30b30",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D40369c9b91",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1498e1b466",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfa31139cc4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc75803ba46",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D68ec883ee2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dab7c742420",
+    "genre": "Study Protocol",
+    "language": "en"
+  },
+  {
+    "id": "D479a5fc62a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D71c39bf00c",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D95900a2edb",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D90917c4e45",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D04c8ff52a2",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D795c870cf1",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D473461b69b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D24a2c98ae3",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df45b248d71",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0ea302e15b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D6cd7fe655d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc5ae5123ae",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dbb812696fb",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D93b7301a72",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D285604a37d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Ddae572ff5a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8ad70d7749",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D4088a17716",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D11d5ccb181",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9b8d885614",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dc50ba74e90",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9dce5d3ce9",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D2306bbff2b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1598c72a1b",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df7c02523fe",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "De19574ea6d",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D0858e37568",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dea01427ae3",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D8048b8fc82",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Ddd8f64b337",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D78054c697a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Df03791b5e1",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dbb1bc86e28",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "Dfea44193e4",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D030d37cd08",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D86163d450a",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9338fbb910",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D1a691de7c0",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D9fb30dbc22",
+    "genre": "Peer-reviewed Article",
+    "language": "en"
+  },
+  {
+    "id": "D5f95a7d50e",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "Dbec94eb293",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "Db7b8add064",
+    "genre": "Field Study",
+    "language": "en"
+  },
+  {
+    "id": "D241bea3ab2",
+    "genre": "Field Study",
+    "language": "en"
+  },
+  {
+    "id": "D371401e5ce",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "De28c251cf0",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "D60730c9a0b",
+    "genre": "Field Study",
+    "language": "en"
+  },
+  {
+    "id": "Dfe14e8ec9d",
+    "genre": "Field Study",
+    "language": "en"
+  },
+  {
+    "id": "D9f7290feeb",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "D43ee803d5e",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "Df33b2cdff5",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "D4498b68b5b",
+    "genre": "Field Study",
+    "language": "fr"
+  },
+  {
+    "id": "D3b6f53301f",
+    "genre": "Scientific News",
+    "language": "fr"
+  },
+  {
+    "id": "Da34922df6b",
+    "genre": "Scientific News",
+    "language": "fr"
+  },
+  {
+    "id": "D03092dcfa4",
+    "genre": "Scientific News",
+    "language": "fr"
+  },
+  {
+    "id": "Dd43f89f14c",
+    "genre": "Scientific News",
+    "language": "fr"
+  },
+  {
+    "id": "D6f0a5ea412",
+    "genre": "Scientific News",
+    "language": "fr"
+  },
+  {
+    "id": "D89ca40c1b2",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "Da0c54e36d0",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "Dd628412f10",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "D06b13d3006",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "D9962a0b190",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "Dd990b22d48",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "D5d11e790c5",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "De16826355c",
+    "genre": "Scientific Publication Notice",
+    "language": "en"
+  },
+  {
+    "id": "Dc18145df95",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Daeb4d85c56",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D0b3a75676e",
+    "genre": "Operational Research Essay",
+    "language": "fr"
+  },
+  {
+    "id": "D2920b4b4b5",
+    "genre": "Operational Research Essay",
+    "language": "fr"
+  },
+  {
+    "id": "D6c1bb22e84",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D2948edda08",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Dc03a1ed426",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D27b3efd483",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D7321bf97ee",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Def7985ae7f",
+    "genre": "Operational Research Essay",
+    "language": "fr"
+  },
+  {
+    "id": "D687f7429a6",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D72d8042903",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D9a7988f7ed",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D00a2be3811",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D6da95ba1fe",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D87f689134a",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Da51b7cbb09",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Dab0d69269b",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D8c0a5add61",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D05e3a417ff",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D8018e92e63",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D43cc2d03d8",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "D405f78fd1b",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Dcfb54d91c5",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "De26d037c78",
+    "genre": "Operational Research Essay",
+    "language": "en"
+  },
+  {
+    "id": "Dcb61e1119f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D37bbcc2a84",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D3201fea5f5",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Da4bda80d2e",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D748b71c6e5",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D90a8848b88",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D6e4de69f32",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "De865e90cce",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Df303243b29",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "De04128df46",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D524ed548b0",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D8ddd1fa37b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D34e2d54853",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D6cbab2c6cb",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D1b539fd0a2",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dbc800c4412",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D6172878e75",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D246270071f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D34cc03f8f1",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D6069eb097e",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D9e021943b7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D8587483c49",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dc6c7aa5a8a",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Decbdca2e26",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dcb9537e77f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D7315b80e8e",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dfb5b06a9b7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dd473352227",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D14b4d02b94",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D580a93c4d4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "De7caf8ed52",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D9d4ec452ad",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dde8197a139",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dfbc4ab37d9",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Def416d05a4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Da6f2631b3b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D1acd41c94b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Df0e89750b8",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dafce8fb028",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D05679d7461",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D50dba876bf",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D2a8e3d2fa0",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D9d9716b620",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D630c775a00",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dc64138c9ce",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D9518aeab1e",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dee57dedf10",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D8c0c7077b8",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Db8b3bfccbd",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Dd5074a1835",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D0f4ce98344",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D89ce0fe2ef",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D9522d1205b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D513226eb11",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D7d0d4bad4c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D7b1162c6ec",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Ddd0aaff8ee",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Da9b138f064",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Db774364e24",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D802d104440",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D390e3325dc",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D5e9f29a4e4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dc0c2eb9630",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D863f0c41eb",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D39460ae120",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D66065dc615",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "De9d43640d1",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D331ad5d4f3",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dd996a7b34b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D10b3b9a6d7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D424e5824d5",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Deb00cdbdc2",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D6b18f4994b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D4c61bd8a4d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D7cadfec00d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D9693bfc7d0",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D87af7060b1",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D204e20fedf",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dc95675e997",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dc1c94fd2b0",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D92891baef4",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "Dff0977248b",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D16f1d7f403",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D86ccec4869",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Df46169d1f2",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Ddf8cc4588f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Dc2778fe78c",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D8066519952",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D350658ea33",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "D3de36827c6",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D2f8154a664",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D407219b98d",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D8025c7c417",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "D6869f1b1af",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D88e42ff882",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  },
+  {
+    "id": "Ddeb37405b7",
+    "genre": "Clinical Guideline Chapter",
+    "language": "en"
+  },
+  {
+    "id": "D39f30a2a32",
+    "genre": "Clinical Guideline Chapter",
+    "language": "es"
+  },
+  {
+    "id": "Df8d55f1f0f",
+    "genre": "Clinical Guideline Chapter",
+    "language": "fr"
+  }
+]

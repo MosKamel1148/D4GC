@@ -7,7 +7,7 @@ export default function ResultsList({results,query,onOpen}:{results:SearchResult
   <p className="meta">{r.document.id} · {r.document.format.toUpperCase()}{r.document.publicationYear!==null?` · ${r.document.publicationYear}`:' · Year unverified'}</p>
   {r.bestPassage.heading&&<p className="passage-heading" dir="auto">{r.bestPassage.heading}</p>}
   <blockquote lang={r.document.language} dir="auto">{sourceExcerpt(r.bestPassage.text,query)}</blockquote>
-  <p className="caption">Source excerpt · {r.bestPassage.page?`PDF file page ${r.bestPassage.page}`:'Page reference unavailable'} · {r.document.textSource.endsWith('.md')?'Supplied Markdown':'Extracted HTML'}</p>
+  <p className="caption">Source excerpt · {r.bestPassage.page?`PDF file page ${r.bestPassage.page}`:'Page reference unavailable'} · {r.document.textSource.endsWith('.md')?'Supplied Markdown':r.document.format==='pdf'?'Extracted PDF':'Extracted HTML'}</p>
   <button className="primary open-document" data-document-id={r.document.id} onClick={()=>onOpen(r)}>Open document <SourceArrow/></button>
  </article>)}</div>;
 }

@@ -37,3 +37,13 @@ Verification: type check and production build passed; 23 unit tests passed with 
 A separate clean copy containing only Git-tracked files (no documents or generated pack) built successfully. Its unit tests passed 11 checks and explicitly skipped 12 real-corpus checks. Its production preview was exercised in phone-sized Chromium: initial missing-pack state, selection of the actual sample, search, language filtering and original HTML opening all passed. The clean copy reused installed dependencies; a fresh package download on Windows was not tested.
 
 File selection is memory-only. Refresh clears it; no PWA or offline storage has been added. PDF text extraction still requires Python for originals without supplied Markdown. User-visible instructions now distinguish prepared-workspace execution from a fresh GitHub download.
+
+## Folder loading and original-PDF repair (build 0.1.2)
+
+Browser selection previously rejected the entire collection when one PDF lacked Markdown and required exact filenames. These were real loader limitations. PDF.js now extracts original PDF text locally per physical page; Markdown still wins when supplied. Original byte hashes are retained across worker transfers. All PDF.js workers, character maps, standard fonts, codecs and licenses are copied locally by predev/prebuild/prepreview. Image-only or invalid PDFs are reported, never replaced with invented text. Download suffixes and case variants are recognized, preserving original filenames. Per-document failures leave other readable documents usable.
+
+Choose document folder uses native directory selection. The ten-document browser restriction is removed: the full CSV catalog supplies metadata for matching IDs, and other PDF/HTML originals use flagged unknown metadata and stable IDs. Generic HTML extraction is explicitly flagged for review. Limits are displayed in documentation; full 764-document performance is untested.
+
+The file picker is available even while the default pack request is pending. A stale startup request cannot overwrite a local selection; requests time out, the query box can accept typing before loading completes, and development startup fails clearly on an occupied port. The UI shows build 0.1.2.
+
+Type checks, production build and 23 unit tests passed. 26 browser checks passed on desktop/phone-sized Chromium: new cases cover original PDF extraction without Markdown, genuine page count, exact original hash after worker extraction, filename variants, partial failure, startup-request races, documents beyond the sample, and uncatalogued metadata. Native phone and the full 764-file collection remain untested. Persistence and offline app installation remain pending.

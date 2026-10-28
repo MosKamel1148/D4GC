@@ -46,7 +46,7 @@ test('empty results, filters, and enlarged narrow layout',async({page})=>{
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 test('three initial cards, show more, and keyboard search',async({page})=>{
- await page.goto('/');const input=page.getByLabel('What are you looking for?');await expect(input).toBeEnabled();await input.fill('humanitarian');await input.press('Enter');
+ await page.goto('/');const input=page.getByLabel('What are you looking for?');await expect(page.getByRole('button',{name:'Search',exact:true})).toBeEnabled();await input.fill('humanitarian');await input.press('Enter');
  await expect(page.locator('article')).toHaveCount(3);
  await page.getByRole('button',{name:/Show more documents/}).click();await expect(page.locator('article')).toHaveCount(6);
 });

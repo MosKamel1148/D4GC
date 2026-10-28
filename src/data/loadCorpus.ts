@@ -3,7 +3,7 @@ import type {Corpus} from '../types/corpus';
 const base = `${import.meta.env.BASE_URL}packs/demo/`;
 export interface LoadedPack {corpus:Corpus; read:(path:string)=>Promise<ArrayBuffer>; mode:'served'|'local'; notices:string[]}
 export async function loadPack():Promise<LoadedPack>{
-  const response=await fetch(base+'manifest.json');
+  const response=await fetch(base+'manifest.json',{signal:AbortSignal.timeout(15000)}).catch(()=>{throw new Error('The sample pack could not be reached. Choose your local files above to start searching.');});
   const text=await response.text();
   if(!response.ok||/^\s*</.test(text)) throw new Error('No sample documents are loaded. Choose your supplied sample files below to enable search and filters.');
   let parsed:unknown;
@@ -12,7 +12,7 @@ export async function loadPack():Promise<LoadedPack>{
   async function read(path:string){
     const entry=manifest.files.find(f=>f.path===path);
     if(!entry) throw new Error('File is not registered in the manifest');
-    const res=await fetch(base+path);
+    const res=await fetch(base+path,{signal:AbortSignal.timeout(30000)});
     if(!res.ok) throw new Error('Source file could not be loaded');
     const bytes=await res.arrayBuffer(); await verifyBytes(bytes,entry); return bytes;
   }
