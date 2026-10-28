@@ -1,9 +1,13 @@
 node_modules/
 dist/
-documents/
+documents/*
+!documents/PUT-FILES-HERE.txt
 public/packs/
 .venv/
 test-results/
 playwright-report/
 *.tsbuildinfo
 public/pdfjs-assets/
+.fieldfind/
+public/packs/*.previous/
+public/packs/*.staging-*/

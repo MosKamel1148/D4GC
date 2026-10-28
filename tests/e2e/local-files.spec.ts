@@ -19,9 +19,9 @@ test('fresh GitHub download: select sample → search → filters → original, 
  await page.getByRole('button',{name:'Back to results'}).click();await expect(page.getByLabel('Document genre')).toHaveValue('Legal Encyclopedia Entry');
  expect(requests).toBe(0);expect(errors).toEqual([]);
  // A failed replacement must preserve the loaded collection and filters.
- await page.getByText('Choose different documents',{exact:true}).click();await page.getByLabel('Choose documents',{exact:true}).setInputFiles([{name:'P34.pdf',mimeType:'application/pdf',buffer:Buffer.from('Synthetic invalid PDF fixture')}]);
+ await page.getByRole('button',{name:'Manage documents',exact:true}).click();await page.getByLabel('Choose documents',{exact:true}).setInputFiles([{name:'P34.pdf',mimeType:'application/pdf',buffer:Buffer.from('Synthetic invalid PDF fixture')}]);
  await expect(page.getByRole('status').filter({hasText:'Not indexed P34.pdf'})).toBeVisible();await expect(page.getByRole('button',{name:'Search',exact:true})).toBeEnabled();await expect(page.getByLabel('Document genre')).toHaveValue('Legal Encyclopedia Entry');
- await page.reload();await expect(page.getByRole('status')).toContainText('No sample documents are loaded');
+ await expect(page.getByRole('status').filter({hasText:'Saved on this browser.'})).toBeVisible();await page.reload();await expect(page.getByRole('status').filter({hasText:'Restored saved collection'})).toBeVisible();await expect(page.getByRole('button',{name:'Search',exact:true})).toBeEnabled();
 });
 test('local Markdown/PDF pairing opens original PDF bytes without invented page references',async({page})=>{
  await page.goto('/');await expect(page.getByRole('status')).toContainText('No sample documents are loaded');await page.getByLabel('Choose documents',{exact:true}).setInputFiles(['P34.pdf','P34.md'].map(n=>path.resolve('documents',n)));
@@ -51,7 +51,7 @@ test('original PDF alone is extracted locally, keeps physical pages and original
  await page.getByText('Extraction notes & supplied metadata').click();await expect(page.getByText(/20 physical PDF pages/)).toBeVisible();await expect(page.getByText(/Filename variation:/)).toBeVisible();
 });
 test('one broken document no longer discards good documents; download suffixes are accepted',async({page})=>{
- await page.goto('/');await page.getByLabel('Choose documents',{exact:true}).setInputFiles([{name:'P26 (1).html',mimeType:'text/html',buffer:readFileSync('documents/P26.html')},{name:'P34.pdf',mimeType:'application/pdf',buffer:Buffer.from('Synthetic invalid PDF fixture')}]);await expect(page.getByRole('status').filter({hasText:'1 local documents'})).toBeVisible({timeout:30000});await expect(page.locator('.import-warnings').getByText(/Not indexed P34.pdf/)).toBeVisible();
+ await page.goto('/');await page.getByLabel('Choose documents',{exact:true}).setInputFiles([{name:'P26 (1).html',mimeType:'text/html',buffer:readFileSync('documents/P26.html')},{name:'P34.pdf',mimeType:'application/pdf',buffer:Buffer.from('Synthetic invalid PDF fixture')}]);await expect(page.getByRole('status').filter({hasText:'1 local documents'})).toBeVisible({timeout:30000});await page.getByRole('button',{name:'Manage documents',exact:true}).click();await expect(page.getByText(/Not indexed P34.pdf/).first()).toBeVisible();
  await page.getByLabel('What are you looking for?').fill('protected persons');await page.getByRole('button',{name:'Search',exact:true}).click();await expect(page.getByRole('heading',{name:'Protected Persons',exact:true})).toBeVisible();
 });
 test('a pending default pack cannot block local selection or overwrite it later',async({page})=>{

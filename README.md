@@ -1,64 +1,66 @@
-# FieldFind
+# FieldFind — milestone 2
 
-First milestone: a React + TypeScript + Vite application using MiniSearch to find real source excerpts and open the supplied originals. No backend or cloud search API. PWA installation, service workers and offline storage are deliberately deferred.
+Local document search with original sources, a reusable folder index, browser persistence, offline app caching, role-aware ranking, and English/French/Arabic interface options. No cloud search API, document upload, authentication system or generated medical advice.
 
-## Quick local start (Windows, macOS or Linux)
+## Simplest local use
 
-Install Node.js LTS, download the **fieldfind-milestone-1** branch, extract it, and open a terminal in that folder:
+Install Node.js LTS (validated on Node 24.19.0). Download the `fieldfind-milestone-1` branch and extract it. The app identifies itself as **Build 0.2.0**.
+
+1. Copy PDF/HTML originals, optional matching Markdown, and **one CSV** into the project's `documents/` folder. Subfolders are supported. CSV header: `id,genre,language`. Keep IDs as filenames, for example `P34.pdf` and `P34.md`. Extra CSV columns are preserved.
+2. Open a terminal in the project root. First time only, run `npm install`.
+3. Run `npm start`. Open the localhost address printed by the terminal (normally `http://127.0.0.1:4173`). Keep using exactly that address and browser.
+4. Wait for **Available without internet** before disconnecting. This requires both verified saved sources and checked cached app assets. You can install the app through the browser's Install/Add to Home Screen menu where supported.
+
+`npm start` prepares the folder, builds the production app, and starts a local preview. No Python is needed. Initial extraction takes real processing time; a full 764-document collection has not been benchmarked. Later starts reuse unchanged data without extracting PDFs again. In this workspace, an unchanged 11-document preparation check took about 0.95 seconds; this is not a general performance guarantee.
+
+After adding/removing/changing files or editing the CSV, stop with Ctrl+C and run `npm start` again. Only affected documents are reprocessed; unchanged documents reuse cached text. The browser checks for a changed prepared-folder version. **Manage documents → Reload prepared folder** can also reload an already prepared version. `npm run prepare:library -- --force` verifies/rebuilds from the current inputs using the document cache. To invalidate extraction caches entirely, remove the generated `.fieldfind/cache/` directory, then prepare again.
+
+An empty `documents/` folder keeps the last prepared library. Invalid CSV or a preparation failure leaves the previous valid pack intact. The CLI explains the failure; it does not silently delete a working collection. Documents with failed extraction are reported separately from CSV rows lacking originals.
+
+## What is saved, and where
+
+- **Your disk:** `documents/` retains the originals and CSV. `.fieldfind/` contains per-document extraction caches and the input stamp. `public/packs/demo/` contains the prepared corpus, safe HTML views, originals, manifest and report. Keep your originals as the durable backup.
+- **IndexedDB:** the active corpus, metadata, stats, ingestion notes, exact original PDF/HTML bytes and safe viewer bytes are stored as browser blobs. Every source is verified before a single atomic activation transaction. A failed write or quota error keeps the prior saved collection. Restoration validates the corpus and stored blobs; opening a source checks its hash again.
+- **Service worker:** caches the production app shell, scripts, local fonts/codecs, PDF worker, icon and language dictionaries. Original documents are saved separately in IndexedDB, not accidentally precached from the web-served pack.
+
+Browser storage is scoped to the address and browser profile. Switching between localhost and 127.0.0.1, changing ports, private browsing, clearing site data or browser eviction can affect saved availability. Durable-storage permission is requested separately and refusal is reported honestly. **Available without internet** is a current verified state, not a promise that data can never be deleted. A browser storage failure leaves the current tab usable and reports that it is not saved.
+
+`npm run dev` also prepares the folder and supports browser persistence, but does **not** install the production offline shell. Use `npm start` for offline demonstrations. A plain HTTP LAN address is not a secure context; phone installation needs trusted HTTPS. No public hosting or source publication is performed by these commands.
+
+## Search and the interface
+
+Search sits below a compact header. **Manage documents** contains file/folder import, CSV and extraction diagnostics, inventory, storage actions and report download. Result previews show four lines; **Read more** expands the exact source passage. Back preserves query, filters, scroll and focus. Active language/genre/occupation settings remain conspicuous and have a Clear filters action.
+
+The collection summary reports these separately:
+
+- CSV entries: all rows in the selected CSV, or bundled fallback catalog if no CSV was supplied.
+- Matched documents: CSV IDs with originals in the selected/prepared folder, whether or not extraction succeeds.
+- Indexed documents: actual readable originals in this collection, including uncatalogued files with unknown metadata.
+- Missing sources: CSV entries without corresponding selected original files. This is not an extraction failure.
+- Failed extraction: selected originals that could not produce searchable text.
+
+The app never invents contents for catalog entries whose files were not supplied. Uncatalogued documents use stable local IDs and flagged unknown metadata. Exact source bytes, filenames and supplied CSV fields are retained. HTML language conflicts are flagged rather than overwriting CSV language. Markdown is preferred when present, with no guessed physical page references. PDF extraction without Markdown preserves physical page numbers; tables, multi-column reading order and sparse pages still require visual review. Image-only PDFs need local OCR or supplied Markdown.
+
+Retrieval indexes passages, titles, headings and genres, then groups results by the best passage score. Common English question words are removed. Reviewed lexical expansions include TB/tuberculosis and annual/yearly. An annual-report query may return a catalogued financial report as a clearly labelled related match; it does not turn arbitrary pricing reports into annual reports. Longer questions may show related results only when sufficient meaningful terms overlap. Exact/all-term matches rank before partial related matches. Scores are ranking signals, never confidence or medical validity.
+
+**Prioritise for** provides All occupations, Medical/clinical, Engineering/logistics and Coordination/reporting. Transparent metadata/title heuristics adjust ranking; they never hide other matching documents. These are preferences, not validated profession-specific classifications. Role relevance requires testing on a wider real corpus. The supplied sample does not include the financial-report originals listed in the older `data.md` sample; an annual-report source cannot appear until its actual file is added.
+
+English, French and Arabic interface dictionaries are local and available offline. Arabic UI uses RTL. Source documents, CSV genres and source-language queries are **not** translated. Interface translations have not been professionally reviewed; diagnostic messages and source metadata may remain in English. There is no live translation API or cross-language semantic search.
+
+## Preparation and validation commands
 
 ```sh
-npm install
-npm run dev
-```
-
-Open the localhost address printed in the terminal (normally port 5173). Click **Choose document folder** and select the folder containing your documents, or **Choose documents** to select multiple originals. PDF text extraction runs locally with PDF.js, its worker, fonts and character maps bundled locally. Include matching Markdown if available; it takes priority. No backend, Python, hosting account, token or cloud upload is needed. The footer identifies this version as **Build 0.1.2 · Local PDF loading**. If port 5173 is occupied, startup fails clearly instead of silently opening a different port.
-
-For the full sample, select these originals:
-`P25.html`, `P26.html`, `P27.html`, `P28.html`, `P32.pdf`, `P33.pdf`, `P34.pdf`, `Df98e297b5f.pdf`, `Dfa9c0c7a37.html`, `Df5738d956a.html`.
-Optionally include these text versions (preferred when present):
-`P28.md`, `P32.md`, `P33.md`, `P34.md`, `Df98e297b5f.md`, `Df5738d956a.md`.
-Keep filenames where possible; case differences, .htm and common download suffixes such as P25 (1).html are recognized without changing the stored original filename. PDFs without Markdown are extracted per physical page, preserving genuine page references. Markdown passages never get guessed page numbers. Image-only PDFs require local OCR; unreadable documents are reported while usable documents still load. The Python route below is an alternative preprocessing workflow.
-
-Files remain **only in memory in this browser tab**. Nothing is uploaded or persisted. Choose them again after refresh. This is milestone 1, not offline storage. Search and filters become available after validation. A failed selection leaves the previous collection usable. Missing packs, HTML fallback responses and malformed JSON show recovery instructions instead of a JSON syntax error.
-
-Search for `protected persons`, `vaccine pricing`, `bedaquiline`, or `الكوليرا`. Search matches source-language words, not translations. Results are grouped by document, initially three cards, with exact excerpts. Open document provides a safe HTML view or original PDF plus exact original download. Back restores query, filters, results, scroll and focus. Filters apply to the last submitted query, even if you edit the input without submitting.
-
-The sample pack is available in this managed workspace, but **is intentionally not in GitHub**. A fresh GitHub download uses the file chooser above. Do not remove `.gitignore` rules or publish source documents to fix a missing-pack message. The full 764-row supplied CSV catalog is bundled as metadata/catalog.json. Matching IDs preserve its genre/language; uncatalogued originals receive stable local IDs and unknown metadata, with warnings. No source text or originals are bundled in Git. Folder selection includes all supported PDF/HTML files, including uncatalogued originals such as the challenge brief if you deliberately select its containing folder. Unsupported files and unpaired Markdown are reported. Limits: 2,000 selected files, 50 MB per file, 500 MB total; at most 1,000 documents and 100,000 passages per validated collection. Full 764-document ingestion has not been measured. Local HTML sanitization uses DOMPurify and a sandboxed restrictive-CSP viewer; active content and images/remote resources are removed, while original bytes remain downloadable.
-
-## Reproduce preparation
-
-Use Node 24 (validated with 24.19.0), npm and Python 3. The npm lockfile pins the tested dependency graph.
-
-```sh
-npm ci
-python -m venv .venv
-.venv/bin/python -m pip install -r scripts/requirements.txt
-.venv/bin/python scripts/ingest.py
+npm run prepare:library   # local Node folder preparation, incremental
 npm run typecheck
 npm test
 npm run build
 npm run test:e2e
 ```
 
-On this machine the Python tooling is installed at `/workspace/fieldfind-tools`; `/workspace/fieldfind-tools/bin/python scripts/ingest.py` was executed successfully. For `npm run ingest`, activate the venv first. Playwright uses `/usr/bin/chromium` when installed, or its usual managed browser; `PLAYWRIGHT_CHROMIUM_EXECUTABLE` can select an installed Chromium. On a machine without Chromium, run `npx playwright install chromium` first. Browser downloads are currently denied by this environment's network policy; the installed Chromium worked.
+Tests requiring supplied originals explicitly skip when those private files are absent. Synthetic fixtures are labelled and used only for tests. Playwright uses system Chromium if present, or its managed browser; `PLAYWRIGHT_CHROMIUM_EXECUTABLE` can select one. The environment's browser-download policy blocked Playwright downloads, so installed Chromium was used.
 
-Use localhost or trusted HTTPS: checksum verification requires Web Crypto. A plain HTTP LAN IP is not a secure context. There is no public deployment and no phone offline-readiness claim.
+The older `scripts/ingest.py` remains an alternative sample-only Python preprocessing route. It needs `scripts/requirements.txt`; it is not required by `npm start`. The Node folder workflow is the recommended route for all copied files and CSV updates.
 
-Original sources and generated packs are **excluded from Git** to respect the supplied guidance. A fresh checkout therefore needs the supplied files before ingestion/tests. Do not commit or publicly distribute them without authorization. Keep them in the environment snapshot or distribute privately. Static builds include the generated sample files.
+Originals, generated packs and caches are ignored by Git. Only `documents/PUT-FILES-HERE.txt` is tracked there. A fresh GitHub checkout therefore needs your privately supplied documents. Static production builds contain prepared originals; configure appropriate access protection before deploying them. No patient data, analytics or remote logging is added.
 
-## Data preparation and traceability
-
-- `metadata/documentation.csv` is preserved unchanged, including all catalog rows. The Python preparation script remains sample-only (10 explicit IDs). The browser folder loader accepts other documents using the full catalog or flagged unknown metadata. ID, genre and language come from the CSV; normalized type is a separate field. Override titles/years in `metadata/overrides.json` without altering supplied CSV metadata.
-- PDF/HTML and its Markdown count as one document. Six supplied Markdown files provide searchable text; the remaining four HTML files use reviewed article selectors. Every supplied original remains byte-for-byte intact. No additional documents or clinical text are invented.
-- Markdown text has no verified physical-page mapping in this release. All its passage page references are null, even if prose contains page numbers. PDF page counts are read from the original. The PDF fallback extractor preserves physical pages if used on a future original without Markdown; validate reading order and sparse-page warnings before relying on it.
-- HTML extraction selects the legal dictionary's article body or MSF's article text blocks, excluding navigation. Safe views use an allowlist, sandbox and restrictive CSP. Tables and embedded raster data images remain; external images/scripts/links are removed. Exact original HTML is distributed as `.html.txt`, then offered as a `.html` download to avoid executing it in the application origin. Original HTML may depend on external assets that were not supplied.
-- The old observed sample in `data.md` is different from these attachments. The pack's `ingestion-report.json` records that discrepancy, each document's preserved metadata, source hashes, page count, text source and warnings. Unknown dates remain unknown. Medical pricing/research/news are not labeled clinical guidance.
-- Ingestion runs locally and emits versioned `corpus.json`, a checksummed `manifest.json`, source files, and an ingestion report. Runtime validation checks schema, identities, enums, references, page bounds, safe paths, sizes and checksums. Checksums detect corruption; they do not establish publisher authenticity.
-
-## Project map
-
-`src/types/corpus.ts` is the shared contract; `src/data/` loads and validates the pack; `src/search/` builds one reusable passage index and groups results by best passage score; `src/components/` contains results and reader UI. `scripts/ingest.py` prepares only the sample. `docs/implementation-brief.md`, `AGENTS.md` and `data.md` retain the supplied guidance, subject to the user's milestone amendments.
-
-No IndexedDB, service worker, voice input, translation, chat, authentication or remote analytics is implemented. The app requires its static host for initial loading and opening uncached sources. Search does not make cloud API calls.
-
-See `evaluation/results.md` for verification scope and limitations.
+See `evaluation/results.md` for actual verification, including offline close/reopen and limits. The full 764-document corpus, actual phone airplane-mode behavior, Safari and professional accessibility/translation review remain untested.

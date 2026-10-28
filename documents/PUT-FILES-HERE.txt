@@ -1,0 +1,16 @@
+FieldFind local library
+
+Copy your PDF/HTML originals, optional matching Markdown files and ONE CSV here.
+CSV header: id,genre,language (extra columns are preserved).
+Use stable IDs as filenames, e.g. P34.pdf and P34.md.
+
+Run npm run dev from the project root. Documents are prepared locally once.
+Later starts skip unchanged files. New/changed files are prepared on restart.
+No Python, cloud service or token is required.
+
+For offline reopening: npm run build, then npm run preview.
+Open the printed localhost address and wait for Available without internet.
+Use the same browser and address. Keep this folder as your durable backup.
+
+Sources and CSV files placed here are ignored by Git. Do not publish them
+to a hosting service without appropriate permissions and access controls.

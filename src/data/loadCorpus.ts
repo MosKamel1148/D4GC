@@ -1,7 +1,9 @@
 import {validateCorpus,validateManifest,verifyBytes} from './validateCorpus';
 import type {Corpus} from '../types/corpus';
 const base = `${import.meta.env.BASE_URL}packs/demo/`;
-export interface LoadedPack {corpus:Corpus; read:(path:string)=>Promise<ArrayBuffer>; mode:'served'|'local'; notices:string[]}
+export interface CollectionStats {csvEntries:number;matchedDocuments:number;indexedDocuments:number;missingSources:number;failedExtraction:number}
+export function checkedStats(value:unknown):CollectionStats|undefined{if(!value||typeof value!=='object')return;const s=value as Record<string,unknown>;if(['csvEntries','matchedDocuments','indexedDocuments','missingSources','failedExtraction'].every(k=>Number.isSafeInteger(s[k])&&Number(s[k])>=0))return s as unknown as CollectionStats;}
+export interface LoadedPack {corpus:Corpus; read:(path:string)=>Promise<ArrayBuffer>; mode:'served'|'local'|'saved'; origin?:'served'|'local'; notices:string[];stats?:CollectionStats}
 export async function loadPack():Promise<LoadedPack>{
   const response=await fetch(base+'manifest.json',{signal:AbortSignal.timeout(15000)}).catch(()=>{throw new Error('The sample pack could not be reached. Choose your local files above to start searching.');});
   const text=await response.text();
@@ -26,5 +28,6 @@ export async function loadPack():Promise<LoadedPack>{
     const f=manifest.files.find(f=>f.path===d.sourcePath);
     if(!f||f.sha256!==d.sourceSha256||f.bytes!==d.sourceBytes|| (d.viewerPath&&!manifest.files.some(f=>f.path===d.viewerPath))) throw new Error('Source metadata mismatch');
   }
-  return {corpus,read,mode:'served',notices:[]};
+  let notices:string[]=[];let stats:CollectionStats|undefined;if(manifest.files.some(f=>f.path==='ingestion-report.json')){const report=JSON.parse(new TextDecoder().decode(await read('ingestion-report.json')));stats=checkedStats(report.stats);if(Array.isArray(report.discrepancies)&&report.discrepancies.every((s:unknown)=>typeof s==='string'))notices=report.discrepancies;}
+  return {corpus,read,mode:'served',notices,stats};
 }

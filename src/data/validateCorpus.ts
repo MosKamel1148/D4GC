@@ -16,7 +16,7 @@ export function validateCorpus(value:unknown):Corpus {
     check(str(d.id)&&!ids.has(d.id),'unique document id');
     check(str(d.title)&&str(d.filename)&&['pdf','html'].includes(String(d.format)),'document fields');
     check(documentTypes.includes(d.type as never)&&str(d.language)&&str(d.genre),'metadata');
-    check(record(d.suppliedMetadata)&&d.suppliedMetadata.id===d.id&&str(d.suppliedMetadata.genre)&&str(d.suppliedMetadata.language),'supplied metadata');
+    check(record(d.suppliedMetadata)&&d.suppliedMetadata.id===d.id&&typeof d.suppliedMetadata.genre==='string'&&typeof d.suppliedMetadata.language==='string','supplied metadata');
     check(d.publicationYear===null||(uint(d.publicationYear)&&d.publicationYear>0&&d.publicationYear<10000),'year');
     check(d.sourceUrl===null||(typeof d.sourceUrl==='string'&&/^https:\/\//.test(d.sourceUrl)),'source URL');
     check(safePath(d.sourcePath)&&String(d.sourcePath).startsWith('sources/'),'source path');
@@ -43,7 +43,7 @@ export function validateManifest(value:unknown):PackManifest {
   check(record(value)&&value.schemaVersion===1&&str(value.packId)&&str(value.version)&&value.corpusPath==='corpus.json'&&Array.isArray(value.files),'manifest');
   const seen=new Set<string>(); let total=0;
   for(const f of value.files){ check(record(f)&&safePath(f.path)&&!seen.has(f.path)&&uint(f.bytes)&&f.bytes<=50_000_000&&hash(f.sha256),'manifest file');seen.add(f.path);total+=f.bytes; }
-  check(seen.has('corpus.json')&&total===value.totalBytes&&total<=100_000_000,'manifest size');
+  check(seen.has('corpus.json')&&total===value.totalBytes&&total<=1_000_000_000,'manifest size');
   return value as unknown as PackManifest;
 }
 export async function verifyBytes(bytes:ArrayBuffer, expected:{bytes:number;sha256:string}) {

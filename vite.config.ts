@@ -1,3 +1,4 @@
 import { defineConfig } from 'vitest/config';
+import {VitePWA} from 'vite-plugin-pwa';
 import react from '@vitejs/plugin-react';
-export default defineConfig({ plugins: [react()], server:{port:5173,strictPort:true}, test: { include: ['tests/**/*.test.ts'] } });
+export default defineConfig({ plugins: [react(),VitePWA({strategies:'injectManifest',srcDir:'src',filename:'sw.ts',registerType:'autoUpdate',includeAssets:['icon.svg'],injectManifest:{globPatterns:['**/*.{js,mjs,css,html,svg,png,ico,webmanifest,bcmap,ttf,pfb,wasm,icc}'],globIgnores:['packs/**'],maximumFileSizeToCacheInBytes:6000000},manifest:{name:'FieldFind',short_name:'FieldFind',description:'Local document search with original sources',theme_color:'#1d5849',background_color:'#f7f8f2',display:'standalone',start_url:'.',icons:[{src:'icon.svg',sizes:'any',type:'image/svg+xml',purpose:'any'}]}})], server:{port:5173,strictPort:true}, test: { include: ['tests/**/*.test.ts'] } });

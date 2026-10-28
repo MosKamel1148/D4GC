@@ -5,6 +5,7 @@ test('local query → grouped excerpt → original → Back',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await expect(page.getByRole('button',{name:'Search',exact:true})).toBeEnabled();
  await page.getByLabel('What are you looking for?').fill('protected persons');
+ await expect(page.getByRole('status').filter({hasText:'Saved on this browser.'})).toBeVisible();
  let requests=0;page.on('request',()=>requests++);
  await page.getByRole('button',{name:'Search',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Protected Persons',exact:true})).toBeVisible();
